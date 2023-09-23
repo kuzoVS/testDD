@@ -1,0 +1,15 @@
+﻿@page "/"
+@inject NavigationManager NavigationManager
+
+<h3>WEB TEST</h3>
+
+<p>kak tak to</p>
+
+<button class="btn btn-primary" @onclick="GoToPeoplePage">yoyo PEOPLE yoyo</button>
+
+@code {
+    private void GoToPeoplePage()
+    {
+        NavigationManager.NavigateTo("/people");
+    }
+}

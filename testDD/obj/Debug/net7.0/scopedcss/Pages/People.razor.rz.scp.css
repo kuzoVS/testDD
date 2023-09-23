@@ -1,0 +1,11 @@
+.person-list[b-2xu12uoqj4] {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-tile[b-2xu12uoqj4] {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 200px;
+}

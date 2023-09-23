@@ -1,0 +1,41 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\Users\\oXkuz\\source\\repos\\testDD\\testDD\\bin\\Debug\\net7.0\\wwwroot\\_framework\\blazor.webassembly.js",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js"
+    },
+    {
+      "Id": "C:\\Users\\oXkuz\\source\\repos\\testDD\\testDD\\obj\\Debug\\net7.0\\build-gz\\jLKZHdKR.gz",
+      "PackagePath": "staticwebassets\\_framework\\blazor.webassembly.js.gz"
+    },
+    {
+      "Id": "C:\\Users\\oXkuz\\source\\repos\\testDD\\testDD\\obj\\Debug\\net7.0\\scopedcss\\bundle\\testDD.styles.css",
+      "PackagePath": "staticwebassets\\testDD.styles.css"
+    },
+    {
+      "Id": "C:\\Users\\oXkuz\\source\\repos\\testDD\\testDD\\wwwroot\\css\\app.css",
+      "PackagePath": "staticwebassets\\css\\app.css"
+    },
+    {
+      "Id": "C:\\Users\\oXkuz\\source\\repos\\testDD\\testDD\\wwwroot\\index.html",
+      "PackagePath": "staticwebassets\\index.html"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.testDD.props",
+      "PackagePath": "build\\testDD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.testDD.props",
+      "PackagePath": "buildMultiTargeting\\testDD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.testDD.props",
+      "PackagePath": "buildTransitive\\testDD.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.testDD.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

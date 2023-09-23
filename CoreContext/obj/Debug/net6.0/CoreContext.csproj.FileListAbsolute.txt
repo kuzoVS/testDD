@@ -1,0 +1,14 @@
+C:\Users\oXkuz\source\repos\testDD\CoreContext\bin\Debug\net6.0\CoreContext.deps.json
+C:\Users\oXkuz\source\repos\testDD\CoreContext\bin\Debug\net6.0\CoreContext.dll
+C:\Users\oXkuz\source\repos\testDD\CoreContext\bin\Debug\net6.0\CoreContext.pdb
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.csproj.AssemblyReference.cache
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.AssemblyInfoInputs.cache
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.AssemblyInfo.cs
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.csproj.CoreCompileInputs.cache
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.dll
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\refint\CoreContext.dll
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.pdb
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\ref\CoreContext.dll
+C:\Users\oXkuz\source\repos\testDD\CoreContext\bin\Debug\net6.0\CoreContext.runtimeconfig.json
+C:\Users\oXkuz\source\repos\testDD\CoreContext\obj\Debug\net6.0\CoreContext.genruntimeconfig.cache

@@ -1,0 +1,11 @@
+﻿.person-list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.person-tile {
+    border: 1px solid #ccc;
+    padding: 10px;
+    margin: 10px;
+    max-width: 200px;
+}

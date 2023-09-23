@@ -1,0 +1,75 @@
+﻿@page "/people"
+
+@using testDD.Context
+@using testDD.Models
+@using CoreContext
+@inject YourDbContext dbContext
+@inject HelperDB helperDB
+
+<h3>Create a New Person</h3>
+
+<form>
+    <div class="form-group">
+        <label for="fullName">Full Name:</label>
+        <input type="text" class="form-control" id="fullName" @bind="newPerson.FullName" />
+    </div>
+    <div class="form-group">
+        <label for="age">Age:</label>
+        <input type="number" class="form-control" id="age" @bind="newPerson.Age" />
+    </div>
+    <div class="form-group">
+        <label for="dateOfBirth">Date of Birth:</label>
+        <input type="date" class="form-control" id="dateOfBirth" @bind="newPerson.DateOfBirth" />
+    </div>
+    <div class="form-group">
+        <label for="gender">Gender:</label>
+        <input type="text" class="form-control" id="gender" @bind="newPerson.Gender" />
+    </div>
+    <div class="form-group">
+        <label for="isMarried">Is Married:</label>
+        <input type="checkbox" id="isMarried" @bind="newPerson.IsMarried" />
+    </div>
+    <button type="button" class="btn btn-primary" @onclick="CreatePersonAsync">Create Person</button>
+</form>
+
+
+
+<h3>List of People</h3>
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Full Name</th>
+            <th>Age</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var person in peopleList)
+        {
+            <tr>
+                <td>@person.Id</td>
+                <td>@person.FullName</td>
+                <td>@person.Age</td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+@code {
+    private List<Person> peopleList = new List<Person>();
+    private Person newPerson = new Person();
+
+    protected override async Task OnInitializedAsync()
+    {
+        peopleList = await helperDB.GetAllPersonsAsync();
+    }
+
+    private async Task CreatePersonAsync()
+    {
+        newPerson.Id = Guid.NewGuid();
+        await helperDB.CreatePersonAsync(newPerson);
+        newPerson = new Person(); // Очистка полей после создания
+        peopleList = await helperDB.GetAllPersonsAsync(); // Обновление списка людей
+    }
+}
